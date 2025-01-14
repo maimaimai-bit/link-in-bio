@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name - Links</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
+
+  <style>
+    html {
+      height: 100%;
+    }
+
+    body {
+      min-height: 100vh;
+      margin: 0;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      background: linear-gradient(180deg, #1f005c, #5b0060, #870160, #ac255e, #ca485c, #e16b5c, #f39060, #ffb56b);
+      color: rgba(255, 255, 255, 1.0);
+      font-family: "Raleway";
+    }
+
+    .main-container {
+      max-width: 640px;
+      margin: auto;
+    }
+
+    .image-row {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .avatar-image {
+      width: 128px;
+      height: 128px;
+      object-fit: cover;
+      border-radius: 128px;
+    }
+
+    .name-row {
+      margin-bottom: 30px;
+      text-align: center;
+      font-family: "Playfair Display", serif;
+      font-size: 24px;
+      font-weight: 900;
+    }
+
+    .social-icons-row {
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .item {
+      background-color: rgba(149, 123, 173, 0.5);
+      border-radius: 10px;
+      padding: 10px;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .thumbnail {
+      width: 40px;
+      height: 40px;
+      border-radius: 40px;
+      object-fit: cover;
+    }
+
+    .link-text {
+      text-align: center;
+      flex-grow: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 48px;
+    }
+
+    a {
+      color: rgba(255, 255, 255, 1.0);
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="main-container">
+    <div class="image-row">
+      <img class="avatar-image" src="/thumbnails/profile-pic.jpg" alt="Your profile picture">
+    </div>
+
+    <div class="name-row">
+      Mai Vu
+    </div>
+
+    <div class="social-icons-row">
+      <a href="https://github.com/maimaimai-bit" target="_blank">
+        <i class="fa-brands fa-github"></i>
+      </a>
+
+      <a href="https://www.linkedin.com/in/hoang-mai-vu/" target="_blank">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+
+      <a href="https://www.instagram.com/hmaivu" target="_blank">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+
+      <a href="https://twitter.com" target="_blank">
+        <i class="fa-brands fa-twitter"></i>
+      </a>
+    </div>
+
+    <div class="links-row">
+      <div class="item">
+        <img class="thumbnail" src="/thumbnails/link1.png" alt="Link 1 thumbnail">
+        <a class="link-text" target="_blank" href="https://maimaimai-bit.github.io/a-day-in-the-life/">
+          A Day In The Life
+        </a>
+      </div>
+
+      <div class="item">
+        <img class="thumbnail" src="/thumbnails/link2.png" alt="Link 2 thumbnail">
+        <a class="link-text" target="_blank" href="https://github.com/maimaimai-bit/nothing-works">
+          Nothing Works
+        </a>
+      </div>
+
+      <div class="item">
+        <img class="thumbnail" src="/thumbnails/link3.png" alt="Link 3 thumbnail">
+        <a class="link-text" target="_blank" href="https://maimaimai-bit.github.io/internet-art-101/">
+          Internet Art 101
+        </a>
+      </div>
+
+      <!-- Add more items as needed -->
+    </div>
+  </div>
+</body>
+</html> 
